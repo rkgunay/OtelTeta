@@ -23,7 +23,7 @@ Localhost'ta çalışır. Veritabanı dosyasını projeye ekledim.
 # Kurulum
 
 Xampp kurulmalı. PhpMyAdmin'e giriş yapıldıktan sonra proje dosyasında verdiğim 
-**beta_test.sql** dosyası içe aktarılmalıdır.. Program 3 farklı uygulamadan açılır. 
+**dbdosyasi.sql** dosyası içe aktarılmalıdır.. Program 3 farklı uygulamadan açılır. 
 Admin, Personel ve Müşteri için farklı giriş uygulaması vardır. Bu dosyaları dist klasöründe bulabilirsiniz.
 Admin uygulamasından "**admin**" kullanıcı adı ve "**admin**" şifresiyle giriş yapabilirsiniz. 
 .jar uzantılı açılmıyorsa .bat uzantılı dosyadan deneyebilirsiniz.  
