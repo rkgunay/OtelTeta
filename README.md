@@ -22,8 +22,8 @@ Localhost'ta çalışır. Veritabanı dosyasını projeye ekledim.
 
 # Kurulum
 
-Xampp kurulmalı. PhpMyAdmin'e giriş yapıldıktan sonra proje dosyasında verdiğim 
-**dbdosyasi.sql** dosyası içe aktarılmalıdır.. Program 3 farklı uygulamadan açılır. 
+Xampp kurulmalı. PhpMyAdmin'e giriş yapıldıktan sonra beta_test adında veritabanı oluşturulmalıdır.
+Sonra bu veritabanına proje dosyasında verdiğim **dbdosyasi.sql** dosyası içe aktarılmalıdır.. Program 3 farklı uygulamadan açılır. 
 Admin, Personel ve Müşteri için farklı giriş uygulaması vardır. Bu dosyaları dist klasöründe bulabilirsiniz.
 Admin uygulamasından "**admin**" kullanıcı adı ve "**admin**" şifresiyle giriş yapabilirsiniz. 
 .jar uzantılı açılmıyorsa .bat uzantılı dosyadan deneyebilirsiniz.  
@@ -53,7 +53,8 @@ Müşteri giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/>
 
 1.Sistem aynı kullanıcı adıyla farklı müşteri ve personel hesapları açmaya izin veriyor. 
 Eğer başka birisiyle kullanıcı adı ve şifre aynı olursa başka birinin hesabına giriliyor. 
-Email bilgisi için de çatışma durumu söz konusu olabilir. 
+Email bilgisi için de çatışma durumu söz konusu olabilir. Eşleşme durumunda kayıt olmaya
+izin vermemeli. Aynı şekilde minimum karakter sınırlaması da getirilmeli. 
 
 2.Yönetici Otel Güncelleme sayfasında otel ekledikten sonra yönetici ana sayfasına geri döndüğünde 
 otel cb_box' ındaki liste güncellenmiyor. Güncelleme alınabilmesi için yöneticinin çıkıp tekrar giriş yapması gerekiyor. 
