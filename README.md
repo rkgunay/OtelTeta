@@ -31,7 +31,22 @@ Veritabanı bağlantısında sorun yaşıyorsanız benim kullandığım bağlant
 sizin localhost'unuzdaki bağlantı bilgileri farklı olabilir. 
 Veritabanı sınıfındaki bağlantı bilgilerinizi kendi bilgilerinizle eşleştirmeniz gerekebilir. 
 
+
 # Genel Arayüz Tasarımı
+
+Yönetici giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/> 
+<img src="https://github.com/rkgunay/OtelTeta/blob/main/ekranGoruntuleri/yonetici.png" width="600">  <br/> <br/>
+
+
+Personel giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/> 
+<img src="https://github.com/rkgunay/OtelTeta/blob/main/ekranGoruntuleri/personel.png" width="600">  <br/> <br/>
+
+
+Müşteri giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/> 
+<img src="https://github.com/rkgunay/OtelTeta/blob/main/ekranGoruntuleri/musteri.png" width="600">  <br/> <br/>
+
+
+
 
 
 # Düzeltilmesi Gereken Hatalar ve Geliştirilebilecek Yerler
