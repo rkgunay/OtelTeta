@@ -66,10 +66,7 @@ Aynı şekilde girilen değerin String'e çevrilerek veritabanına atılması ge
 4.Optimize edilebilecek yerler var. Mesala bazı sayfalara VeritabanıFonksiyonları sınıfını birden çok kez tanıttım. 
 Kodun başında bir kez tanıtmam yeterdi. Daha "DRY" bir kod yazılabilirdi. 
 
-5.Veritabanından çektiğim verileri bir sınıfın objesi olarak üretip o şekilde kullanabilirdim.
-Kod daha esnek ve güncellenmesi daha kolay olurdu. 
-
-6.Arayüz esnek değil. Program arayüzü, kullanılan sistemin çözünürlüğüne göre daha büyük ya da daha küçük gözükebiliyor. 
+5.Arayüz esnek değil. Program arayüzü, kullanılan sistemin çözünürlüğüne göre daha büyük ya da daha küçük gözükebiliyor. 
 En büyük çözünürlüğe sahip arayüz 800, 600 büyüklüğünde. 
 Düşük çözünürlüklü bilgisayarlarda sıkıntı yaratmasa da yüksek çözünürlüklü bilgisayarlarda kullanıcı memnuniyetini düşürür. 
 Aksi bir senaryoda programın arayüzünü yüksek çözünürlükte yapsaydım,
