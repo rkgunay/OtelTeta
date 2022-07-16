@@ -49,28 +49,6 @@ Müşteri giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/>
 
 
 
-# Düzeltilmesi Gereken Hatalar ve Geliştirilebilecek Yerler
-
-1.Sistem aynı kullanıcı adıyla farklı müşteri ve personel hesapları açmaya izin veriyor. 
-Eğer başka birisiyle kullanıcı adı ve şifre aynı olursa başka birinin hesabına giriliyor. 
-Email bilgisi için de çatışma durumu söz konusu olabilir. Eşleşme durumunda kayıt olmaya
-izin vermemeli. Aynı şekilde minimum karakter sınırlaması da getirilmeli. 
-
-2.Yönetici Otel Güncelleme sayfasında otel ekledikten sonra yönetici ana sayfasına geri döndüğünde 
-otel cb_box' ındaki liste güncellenmiyor. Güncelleme alınabilmesi için yöneticinin çıkıp tekrar giriş yapması gerekiyor. 
-
-3.Ücret kısımlarına sayısal olmayan değerler girilebiliyor. 
-Bu da toplam hesaplanmaya çalışıldığında hata yaratıyor. textfield'lara veri tipi kontrolü gerekiyor.
-Aynı şekilde girilen değerin String'e çevrilerek veritabanına atılması gerekiyor. 
-
-4.Optimize edilebilecek yerler var. Mesala bazı sayfalara VeritabanıFonksiyonları sınıfını birden çok kez tanıttım. 
-Kodun başında bir kez tanıtmam yeterdi. Daha "DRY" bir kod yazılabilirdi. 
-
-5.Arayüz esnek değil. Program arayüzü, kullanılan sistemin çözünürlüğüne göre daha büyük ya da daha küçük gözükebiliyor. 
-En büyük çözünürlüğe sahip arayüz 800, 600 büyüklüğünde. 
-Düşük çözünürlüklü bilgisayarlarda sıkıntı yaratmasa da yüksek çözünürlüklü bilgisayarlarda kullanıcı memnuniyetini düşürür. 
-Aksi bir senaryoda programın arayüzünü yüksek çözünürlükte yapsaydım,
-düşük çözünürlüklü bilgisayarlarda ekrandan taşma sorunu yaşanırdı. 
 
 
 
